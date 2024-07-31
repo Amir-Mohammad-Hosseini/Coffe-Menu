@@ -1,0 +1,81 @@
+html{
+    box-sizing: border-box;
+}
+* , *::after , *::before{
+    box-sizing: inherit;
+}
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/ttf_fonts/ttf_fonts/Poppins-Regular.ttf) format(truetype);
+}
+body{
+    font-family: sans-serif;
+    background-image: url(../images/beans.jpg);
+}
+main{
+    max-width: 500px;
+    background-color: burlywood;
+    margin: 30px auto;
+    border-radius: 8px;
+    padding: 20px;
+}
+h1{
+    font-family: Impact, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+.est-year{
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+}
+hr{
+    height: 4px;
+    background-color: brown;
+    color: brown;
+    border: 0;
+}
+h2{
+    font-family: Impact, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+article{
+    display: block;
+
+}
+.coffee-menu{
+    display: flex;
+    flex-direction: column;
+}
+.item-coffee{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+.item-dessert{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+.hr2{
+    margin-bottom: 15px;
+}
+footer{
+    font-size: 14px;
+    text-align: center;
+}
+a{
+    color: black;
+}
